@@ -65,16 +65,19 @@ function Startpage() {
                         </a>
                         <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                             <li>
-                                <a href="#" class="mr-4 hover:underline md:mr-6 ">Link 1</a>
+                                <a href="https://github.com/gustavo-hnrq" class="mr-4 hover:underline md:mr-6 ">Gustavo Henrique</a>
                             </li>
                             <li>
-                                <a href="#" class="mr-4 hover:underline md:mr-6">Link 2</a>
+                                <a href="https://github.com/MarquesGusta" class="mr-4 hover:underline md:mr-6">Gustavo Marques</a>
                             </li>
                             <li>
-                                <a href="#" class="mr-4 hover:underline md:mr-6 ">Link 3</a>
+                                <a href="https://github.com/joaonishikawa" class="mr-4 hover:underline md:mr-6 ">João Nishikawa</a>
                             </li>
                             <li>
-                                <a href="#" class="hover:underline">Link 4</a>
+                                <a href="https://github.com/Kaique-William" class="mr-4 hover:underline md:mr-6 ">Kaique William</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/MelissaaGomes" class="hover:underline">Melissa Gomes</a>
                             </li>
                         </ul>
                     </div>
