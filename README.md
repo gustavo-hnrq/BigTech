@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Site Informativo sobre Big Techs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém o código-fonte de um site informativo sobre as Big Techs, incluindo informações sobre o que são, sua importância e uma lista de cartões com as principais empresas do mercado de tecnologia, como Apple, Microsoft, entre outras. Os dados exibidos nos cartões são obtidos diretamente de uma API desenvolvida especialmente para este projeto, chamada "API-Big Techs". O site foi desenvolvido utilizando as tecnologias ReactJS e Tailwind CSS para estilização.
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+O objetivo deste projeto é fornecer uma plataforma informativa sobre as Big Techs, as principais empresas de tecnologia do mundo. Os visitantes do site poderão aprender sobre o que são as Big Techs, sua importância no cenário global de tecnologia e ter acesso a informações atualizadas sobre as empresas mais relevantes do setor.
 
-### `yarn start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Informações sobre Big Techs:** O site fornece informações detalhadas sobre o que são as Big Techs e por que são tão importantes no mundo da tecnologia.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Cartões de Big Techs:** Na página principal do site, os visitantes encontrarão cartões de empresas de tecnologia líderes, como Apple, Microsoft, Google, Amazon, Facebook, entre outras. Cada cartão exibe informações sobre a empresa, como nome, logotipo e uma breve descrição. Esses dados são obtidos diretamente da API-Big Techs.
 
-### `yarn test`
+- **API-Big Techs:** Uma API personalizada, chamada "API-Big Techs", foi desenvolvida para este projeto. Ela fornece os dados necessários para os cartões das Big Techs, garantindo que as informações estejam sempre atualizadas e precisas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Estilização com Tailwind CSS:** O projeto utiliza o Tailwind CSS para estilizar o site, garantindo um design moderno e responsivo.
 
-### `yarn build`
+## Como Baixar e Rodar o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar o projeto em sua máquina local, siga estas etapas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório em sua máquina local:
+   
+   ```shell
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
