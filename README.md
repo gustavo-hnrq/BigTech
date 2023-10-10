@@ -10,7 +10,7 @@ O objetivo deste projeto é fornecer uma plataforma informativa sobre as Big Tec
 
 - **Informações sobre Big Techs:** O site fornece informações detalhadas sobre o que são as Big Techs e por que são tão importantes no mundo da tecnologia.
 
-- **Cartões de Big Techs:** Na página principal do site, os visitantes encontrarão cartões de empresas de tecnologia líderes, como Apple, Microsoft, Google, Amazon, Facebook, entre outras. Cada cartão exibe informações sobre a empresa, como nome, logotipo e uma breve descrição. Esses dados são obtidos diretamente da API-Big Techs.
+- **Cartões de Big Techs:** Na página principal do site, os visitantes encontrarão cartões de empresas de tecnologia líderes, como Apple, Microsoft, Google, Meta, Sony, entre outras. Cada cartão exibe informações sobre a empresa, como nome, logotipo e uma breve descrição. Esses dados são obtidos diretamente da API-Big Techs.
 
 - **api-bigtech:** Uma API personalizada, chamada "api-bigtech", foi desenvolvida para este projeto. Ela fornece os dados necessários para os cartões das Big Techs, garantindo que as informações estejam sempre atualizadas e precisas.
 
