@@ -22,7 +22,7 @@ Para executar o projeto em sua máquina local, siga estas etapas:
 1. Clone este repositório em sua máquina local:
    
    ```shell
-   https://github.com/gustavo-hnrq/bigtech
+   git clone https://github.com/gustavo-hnrq/bigtech
 
 2. Navegue até o reposótorio:
 
