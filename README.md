@@ -1,6 +1,6 @@
 # Site Informativo sobre Big Techs 🌐
 
-Este repositório contém o código-fonte de um site informativo sobre as Big Techs, incluindo informações sobre o que são, sua importância e uma lista de cartões com as principais empresas do mercado de tecnologia, como Apple, Microsoft, entre outras. Os dados exibidos nos cartões são obtidos diretamente de uma API desenvolvida especialmente para este projeto, chamada "api-bigtech". O site foi desenvolvido utilizando as tecnologias ReactJS e Tailwind CSS para estilização.
+Este repositório contém o código-fonte de um site informativo sobre as Big Techs, incluindo informações sobre o que são, sua importância e uma lista de cartões com as principais empresas do mercado de tecnologia, como Apple, Microsoft, entre outras. Os dados exibidos nos cartões são obtidos diretamente de uma API desenvolvida especialmente para este projeto, chamada "api-bigtechs". O site foi desenvolvido utilizando as tecnologias ReactJS e Tailwind CSS para estilização.
 
 ## Visão Geral
 
@@ -12,7 +12,7 @@ O objetivo deste projeto é fornecer uma plataforma informativa sobre as Big Tec
 
 - **Cartões de Big Techs:** Na página principal do site, os visitantes encontrarão cartões de empresas de tecnologia líderes, como Apple, Microsoft, Google, Meta, Sony, entre outras. Cada cartão exibe informações sobre a empresa, como nome, logotipo e uma breve descrição. Esses dados são obtidos diretamente da API-Big Techs.
 
-- **api-bigtech:** Uma API personalizada, chamada "api-bigtech", foi desenvolvida para este projeto. Ela fornece os dados necessários para os cartões das Big Techs, garantindo que as informações estejam sempre atualizadas e precisas.
+- **api-bigtechs:** Uma API personalizada, chamada "api-bigtechs", foi desenvolvida para este projeto. Ela fornece os dados necessários para os cartões das Big Techs, garantindo que as informações estejam sempre atualizadas e precisas.
 
 
 ## Como Baixar e Rodar o Projeto
