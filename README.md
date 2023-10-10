@@ -43,7 +43,7 @@ Para executar o projeto em sua máquina local, siga estas etapas:
    # ou
    yarn install
 
-5. Pronto, aogra o projeto estará disponível em http://localhost:3000 no seu navegador. Agora você pode explorar o site sobre as Big Techs localmente.
+5. Pronto, agora o projeto estará disponível em http://localhost:3000 no seu navegador. Agora você pode explorar o site sobre as Big Techs localmente.
 
 
 
