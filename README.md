@@ -27,7 +27,7 @@ Para executar o projeto em sua máquina local, siga estas etapas:
 2. Navegue até o reposótorio:
 
     ```shell
-   cd nome-do-repositorio
+   cd bigtech-main
     
 3. Instale as dependências usando npm ou yarn:
 
