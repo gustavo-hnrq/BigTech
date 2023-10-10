@@ -1,4 +1,4 @@
-# Site Informativo sobre Big Techs
+# Site Informativo sobre Big Techs 🌐
 
 Este repositório contém o código-fonte de um site informativo sobre as Big Techs, incluindo informações sobre o que são, sua importância e uma lista de cartões com as principais empresas do mercado de tecnologia, como Apple, Microsoft, entre outras. Os dados exibidos nos cartões são obtidos diretamente de uma API desenvolvida especialmente para este projeto, chamada "api-bigtech". O site foi desenvolvido utilizando as tecnologias ReactJS e Tailwind CSS para estilização.
 
