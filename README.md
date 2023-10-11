@@ -41,7 +41,7 @@ Para executar o projeto em sua máquina local, siga estas etapas:
    ```shell
    npm start
    # ou
-   yarn install
+   yarn start
 
 5. Pronto, agora o projeto estará disponível em http://localhost:3000 no seu navegador. Agora você pode explorar o site sobre as Big Techs localmente.
 
