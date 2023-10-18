@@ -21,6 +21,7 @@ const Card = () => {
           <Fade delay={1e2} cascade damping={0.1} direction="up">
             <img src={element.img} className="w-32"/>
             <h5 className="mb-3 mt-2 text-2xl font-semibold">{element.nome}</h5>
+            <p> {element.valor} </p>
             <p className="text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500 text-lg font-black">Criadores: {element.criadores}</p>
             <p> {element.resumo} </p>
           </Fade>
