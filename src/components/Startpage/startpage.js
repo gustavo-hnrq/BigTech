@@ -1,9 +1,8 @@
 import img1 from '../../images/img1.svg'
 import img2 from '../../images/img2.svg'
 import git from '../../images/github.svg'
-import './startpage.css'
-
-
+import Card from './card'
+import { Fade } from 'react-awesome-reveal';
 
 function Startpage() {
     return(
@@ -56,10 +55,20 @@ function Startpage() {
                 <hr className='mx-auto max-w-screen-xl' />
             </section>
 
-            <footer class="bg-cyan-950 rounded-lg shadow m-4 mx-auto max-w-screen-xl max-sm:ml-5 max-sm:mr-5 max-lg:ml-5 ">
-                <div class="w-full max-w-screen-xl mx-auto p-10 py-12">
+            <section>
+                <div className='mx-auto max-w-screen-xl flex justify-center mt-10'>
+                    <h2 class="text-7xl font-bold text-cyan-950 max-sm:text-5xl">As principais Big Techs</h2>
+                </div>
+                <div class="mx-auto max-w-screen-xl sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+                    <Card />
+                </div>
+            </section>
+
+            <footer className="bg-cyan-950 shadow">
+                <div className="mx-auto max-w-screen-xl w-full p-10 py-12">
+                <Fade delay={1e2} cascade damping={1e-1} direction='up'>
                     <div class="sm:flex sm:items-center sm:justify-between">
-                        <a href="#" class="flex items-center mb-4 sm:mb-0">
+                        <a href="#" class="flex items-center sm:mb-5">
                             <img src={git} class="h-8 mr-3"/>
                             <span class="self-center text-1xl font-medium whitespace-nowrap text-white">BigTech.com</span>
                         </a>
@@ -81,9 +90,9 @@ function Startpage() {
                             </li>
                         </ul>
                     </div>
+                    </Fade>
                 </div>
             </footer>
-
         </div>
     );
 }
