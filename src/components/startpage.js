@@ -9,7 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 function Startpage() {
     return(
         <div>
-            
+            <Fade delay={100} cascade damping={1} direction="up" triggerOnce={true}>
+
             <section>
                     <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 ">
                         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 items-center">
@@ -22,7 +23,7 @@ function Startpage() {
                                 têm uma enorme presença na internet e em muitos aspectos da tecnologia moderna.
                                 </p>
                             </div>
-                            <div className="relative overflow-hidden h-full sm:h-80 lg:h-full lg:order-1">
+                            <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-1">
                                 <img
                                 src={img1}
                                 className="absolute w-full h-full"
@@ -32,7 +33,6 @@ function Startpage() {
                     </div>
                 <hr className='mx-auto max-w-screen-xl' />
             </section>
-
 
             <section>
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
@@ -57,7 +57,9 @@ function Startpage() {
                 <hr className='mx-auto max-w-screen-xl' />
             </section>
 
-            <section>
+            </Fade>
+
+            <section className='mb-3'>
                 <div className='mx-auto max-w-screen-xl text-center mt-10'>
                     <h1 className="text-7xl font-bold text-cyan-950 max-sm:text-3xl">As principais Big Techs</h1>
                     <div>
