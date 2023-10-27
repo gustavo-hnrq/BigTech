@@ -9,6 +9,8 @@ import { TypeAnimation } from 'react-type-animation';
 function Startpage() {
     return(
         <div>
+            {/* O efeito de fade faz parte da biblioteca {react-awesome-reveal} que está
+           com um atraso de 100, sua direção será para cima e o feito ira acontecer apenas uma vez . É aplicado a todos os elementos filhos. */}
             <Fade delay={100} cascade damping={1} direction="up" triggerOnce={true}>
 
             <section>
@@ -63,6 +65,10 @@ function Startpage() {
                 <div className='mx-auto max-w-screen-xl text-center mt-10'>
                     <h1 className="text-7xl font-bold text-cyan-950 max-sm:text-3xl">As principais Big Techs</h1>
                     <div>
+                        {/* O <TypeAnimation> faz parte da biblioteca {react-type-animation} que foi importada e significa que todos 
+                        os textos que estão na propriedade sequence= terão o efeito de texto animado com 3 segundos de delay entre cada texto.
+                        As propriedades speed, deletionSpeed e repeat são adicionais dessa biblioteca e já são autoexplicativos.
+                        */}
                         <TypeAnimation className='ml-5 mr-5 font-bold text-7xl text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'
                         sequence={[
                         "Apple",
@@ -92,6 +98,8 @@ function Startpage() {
             <footer className="bg-cyan-950 shadow">
                 <div className="mx-auto max-w-screen-xl w-full p-10 py-12">
                 <Fade delay={1e2} cascade damping={1e-1} direction='up'>
+                    {/* O efeito de fade-in faz parte da biblioteca {react-awesome-reveal} que está
+                    com um atraso e sua direção será para cima. É aplicado a todos os elementos filhos. */}
                     <div className="sm:flex sm:items-center sm:justify-between flex-wrap">
                         <a href="https://github.com/gustavo-hnrq/bigtech" className="flex items-center self-center">
                             <img src={git} className="h-8 mr-3"/>
